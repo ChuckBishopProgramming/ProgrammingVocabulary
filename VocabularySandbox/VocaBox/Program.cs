@@ -46,15 +46,15 @@
             string childClass = "";
 
             //Access Keywords
-            string publicKeyword = "TBD";
-            string privateKeyword = "TBD";
-            string protectedKeyword = "TBD";
-            string internalKeyword = "TBD";
+            string publicKeyword = "Accesible from anywhere";
+            string privateKeyword = "Accesible from inside the class";
+            string protectedKeyword = "Accesible from this class and child classes";
+            string internalKeyword = "Accesible from the same project";
 
             //Inheritance and Polymorphism Keywords
-            string virtualKeyword = "";
-            string overrideKeyword = "";
-            string abstractKeyword = "";
+            string virtualKeyword = "The parent method can be replaced (optional)";
+            string overrideKeyword = "The child method IS replacing it";
+            string abstractKeyword = "MUST be overriden (nothing inside)";
             string sealedKeyword = "";
             string newKeyword = "";
 
@@ -62,19 +62,24 @@
             string classKeywordIII = "a normal class";
             string abstractKeywordII = "can't be instantiated, may contain abstract members";
             string staticKeyword = "can't be instantied, only static members. Belongs to the class and does not require an onject";
-            string partialKeyword = "TBD";
+            string partialKeyword = "";
 
             //Member keywords - describes what the member is
-            string member = "";
-            string fieldKeyword = "";
-            string properyKeyword = "";
-            string methodKeyword = "A function inside a class";
+            string member = "Anything inside a class (field, property, method, etc.";
+            string fieldKeyword = "A variable stored inside a class (often private)";
+            string properyKeyword = "A get/set wrapper that exposes a value";
+            string methodKeyword = "A function inside a class/An action the class can do";
             string eventKeyword = "TBD";
 
             //Member modifiers 
             string staticKeywordII = "belongs to the class, not the object";
             string readonlyKeyword = "can only be set in constructor";
-            string constKeyword = "compile time constant"
+            string constKeyword = "compile time constant";
+
+            //Constructor keywords
+            string baseParenthesisKeyword = "call the parent constructor: base()";
+            string thisParenthesisKeyword = "call another constructor in the same class. this()";
+
 
 
 
