@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "smwpttBx++w=",
+  "dgSpecHash": "i00Q6UhCcbc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Chuck\\Practice\\Vocab\\VocabularySandbox\\VocaBox\\VocaBox.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\rockh\\Source\\Repos\\ProgrammingVocabulary\\VocabularySandbox\\VocaBox\\VocaBox.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rockh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\rockh\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\rockh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.11\\microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\rockh\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.11\\microsoft.netcore.app.host.win-x64.9.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

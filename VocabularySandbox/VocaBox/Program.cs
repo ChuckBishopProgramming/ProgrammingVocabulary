@@ -20,7 +20,7 @@
         static void Main(string[] args)
         {
             string objectOrientedProgramming = "A style of programming that focuses on objects";
-            string objectOrientedProgramming++ = "object focused, less limited than procedural but a little more complicated. Translates to visual thought processes fairly well";
+            string objectOrientedProgrammingII = "object focused, less limited than procedural but a little more complicated. Translates to visual thought processes fairly well";
 
             string objectDEF = "An object is an instance of a class. Needs the new keyword. It's an implementation of the class";
             // Customer customer1 = new Customer();
@@ -42,7 +42,16 @@
             string reservedKeyWord = "special words that cannot be used as string names";
             string classKeyword = "used before a class is declared";
 
+            string parentClass = "";
+            string childClass = "";
+
             string publicKeyword = "TBD";
+            string privateKeyword = "TBD";
+            string protectedKeyword = "TBD";
+            string internalKeyword = "TBD";
+
+
+
 
             Console.WriteLine("Hello, World!");
         }
