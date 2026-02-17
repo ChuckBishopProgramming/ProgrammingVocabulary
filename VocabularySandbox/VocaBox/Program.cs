@@ -83,6 +83,12 @@
 
 
 
+            //Math Terms
+            string sumDefinition = "The result of addition";
+
+
+
+
 
 
             Console.WriteLine("Hello, World!");
