@@ -15,6 +15,10 @@
     // Ensure we have the skills to search, naviagate and communicate vital information
     // Test our existing knowledge
     // Practice skills
+
+    //PLANS
+    // Split into separate classes for each category (Class Practice)
+    // Create collections for categories of words
     internal class Program       
     {
         static void Main(string[] args)
@@ -80,11 +84,19 @@
             string baseParenthesisKeyword = "call the parent constructor: base()";
             string thisParenthesisKeyword = "call another constructor in the same class. this()";
 
+            //Basic Math Terms
+            string sumDefinition = "The result of adding two or more numbers";
+            string differenceDefinition = "The result of subtraction operation";
+            string productDefinition = "The result of multiplication operation";
+            string quotientDefinition = "The result of a division operation";
+            string moduloDefinition = "The remainder from imperfect division. A common way to test if even or odd. %2 == 0 ";
+            string numeratorDefinition = "the top number of a fraction";
+            string denominatorDefinition = "the bottom number of a fraction";
+            string factorDefintion = "A factor is a number that can be multiplied by another number to produce a given number";
 
+            //Math Actions
+            string simplifyFraction = "reduce the fraction to it's simplest form. Divide numerator and denominator by the greatest common factor";
 
-
-            //Math Terms
-            string sumDefinition = "The result of addition";
 
 
 
