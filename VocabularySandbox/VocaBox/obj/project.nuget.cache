@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i00Q6UhCcbc=",
+  "dgSpecHash": "C9RpsF/dOy4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rockh\\Source\\Repos\\ProgrammingVocabulary\\VocabularySandbox\\VocaBox\\VocaBox.csproj",
+  "projectFilePath": "C:\\Users\\rockh\\source\\repos\\ProgrammingVocabulary\\VocabularySandbox\\VocaBox\\VocaBox.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rockh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
     "C:\\Users\\rockh\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",

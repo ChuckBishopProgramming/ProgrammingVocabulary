@@ -23,6 +23,8 @@
     {
         static void Main(string[] args)
         {
+
+            //UNSORTED:
             string objectOrientedProgramming = "A style of programming that focuses on objects";
             string objectOrientedProgrammingII = "object focused, less limited than procedural but a little more complicated. Translates to visual thought processes fairly well";
 
@@ -50,12 +52,14 @@
             string childClass = "";
 
             //Access Keywords
+            //========================================================================
             string publicKeyword = "Accesible from anywhere";
             string privateKeyword = "Accesible from inside the class";
             string protectedKeyword = "Accesible from this class and child classes";
             string internalKeyword = "Accesible from the same project";
 
             //Inheritance and Polymorphism Keywords
+            //========================================================================
             string virtualKeyword = "The parent method can be replaced (optional)";
             string overrideKeyword = "The child method IS replacing it";
             string abstractKeyword = "MUST be overriden (nothing inside)";
@@ -63,12 +67,14 @@
             string newKeyword = "";
 
             //Class keywords - what kind of class
+            //========================================================================
             string classKeywordIII = "a normal class";
             string abstractKeywordII = "can't be instantiated, may contain abstract members";
             string staticKeyword = "can't be instantied, only static members. Belongs to the class and does not require an onject";
             string partialKeyword = "";
 
             //Member keywords - describes what the member is
+            //========================================================================
             string member = "Anything inside a class (field, property, method, etc.";
             string fieldKeyword = "A variable stored inside a class (often private)";
             string properyKeyword = "A get/set wrapper that exposes a value";
@@ -76,15 +82,18 @@
             string eventKeyword = "TBD";
 
             //Member modifiers 
+            //========================================================================
             string staticKeywordII = "belongs to the class, not the object";
             string readonlyKeyword = "can only be set in constructor";
             string constKeyword = "compile time constant";
 
             //Constructor keywords
+            //========================================================================
             string baseParenthesisKeyword = "call the parent constructor: base()";
             string thisParenthesisKeyword = "call another constructor in the same class. this()";
 
             //Basic Math Terms
+            //========================================================================
             string sumDefinition = "The result of adding two or more numbers";
             string differenceDefinition = "The result of subtraction operation";
             string productDefinition = "The result of multiplication operation";
@@ -93,14 +102,40 @@
             string numeratorDefinition = "the top number of a fraction";
             string denominatorDefinition = "the bottom number of a fraction";
             string factorDefintion = "A factor is a number that can be multiplied by another number to produce a given number";
+            string greatestCommonDivisor = "the largest number that can divide into both fractions";
+            string lowestCommonDenominator = "the smallest denominator shared between two fractions";
 
             //Math Actions
+            //========================================================================
             string simplifyFraction = "reduce the fraction to it's simplest form. Divide numerator and denominator by the greatest common factor";
 
 
 
 
+            //Math Patterns
+            //========================================================================
+            string addition = "a+b=c";
+            string subtraction = "a-b=c";
+            string multiplication = "a*b=c";
+            string division = "a/b=c";
+            
 
+
+
+
+            //Unrelated but interesting
+            //========================================================================
+            string opticalCharacterRecognition = "electronic or mechanical conversion of images of text into machine encoded text-wikipedia";
+            string projectionMapping = "A projection technique used to turn often uneven surfaces into display surfaces for video projection-wikipedia" ;
+
+            //Design Terms
+            //========================================================================
+            string greenField = "refers to creating a system, application or project entirely from scratch. Has no contraints for existing infrastructure or legacy code. Term comes from real estate. ";
+
+            //People to Know
+            //========================================================================
+            string godbolt = "Matt 'compliler' Godbolt";
+            string uncleBob = "Robert 'Uncle Bob' Martin: Clean Code";
 
 
             Console.WriteLine("Hello, World!");

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rockh\\Source\\Repos\\ProgrammingVocabulary\\VocabularySandbox\\VocaBox\\VocaBox.csproj": {}
+    "C:\\Users\\rockh\\source\\repos\\ProgrammingVocabulary\\VocabularySandbox\\VocaBox\\VocaBox.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rockh\\Source\\Repos\\ProgrammingVocabulary\\VocabularySandbox\\VocaBox\\VocaBox.csproj": {
+    "C:\\Users\\rockh\\source\\repos\\ProgrammingVocabulary\\VocabularySandbox\\VocaBox\\VocaBox.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rockh\\Source\\Repos\\ProgrammingVocabulary\\VocabularySandbox\\VocaBox\\VocaBox.csproj",
+        "projectUniqueName": "C:\\Users\\rockh\\source\\repos\\ProgrammingVocabulary\\VocabularySandbox\\VocaBox\\VocaBox.csproj",
         "projectName": "VocaBox",
-        "projectPath": "C:\\Users\\rockh\\Source\\Repos\\ProgrammingVocabulary\\VocabularySandbox\\VocaBox\\VocaBox.csproj",
+        "projectPath": "C:\\Users\\rockh\\source\\repos\\ProgrammingVocabulary\\VocabularySandbox\\VocaBox\\VocaBox.csproj",
         "packagesPath": "C:\\Users\\rockh\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\rockh\\Source\\Repos\\ProgrammingVocabulary\\VocabularySandbox\\VocaBox\\obj\\",
         "projectStyle": "PackageReference",
