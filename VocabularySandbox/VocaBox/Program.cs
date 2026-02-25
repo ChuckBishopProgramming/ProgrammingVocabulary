@@ -109,16 +109,12 @@
             //========================================================================
             string simplifyFraction = "reduce the fraction to it's simplest form. Divide numerator and denominator by the greatest common factor";
 
-
-
-
             //Math Patterns
             //========================================================================
             string addition = "a+b=c";
             string subtraction = "a-b=c";
             string multiplication = "a*b=c";
-            string division = "a/b=c";
-            
+            string division = "a/b=c";         
 
 
 
@@ -137,6 +133,14 @@
             string godbolt = "Matt 'compliler' Godbolt";
             string uncleBob = "Robert 'Uncle Bob' Martin: Clean Code";
 
+            //Software Paradigms
+            //========================================================================
+            string paradigm = "Theoretical framework or process for developing and designing software. ";
+            string imperativeParadigm = "Code directly controls execution flow and state change, explicit statements that change a program's state";
+            string objectOrientedParadigm = "Organized as objects that encapsulate both data and behavior to design programs";
+            string functionalParadigm = "";
+            string logicParadigm = "";
+            string declarativeParadigm = "";
 
             Console.WriteLine("Hello, World!");
         }
