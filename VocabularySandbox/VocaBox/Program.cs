@@ -114,10 +114,7 @@
             string addition = "a+b=c";
             string subtraction = "a-b=c";
             string multiplication = "a*b=c";
-            string division = "a/b=c";         
-
-
-
+            string division = "a/b=c";  
 
             //Unrelated but interesting
             //========================================================================
@@ -137,10 +134,10 @@
             //========================================================================
             string paradigm = "Theoretical framework or process for developing and designing software. ";
             string imperativeParadigm = "Code directly controls execution flow and state change, explicit statements that change a program's state";
-            string objectOrientedParadigm = "Organized as objects that encapsulate both data and behavior to design programs";
-            string functionalParadigm = "";
+            string objectOrientedParadigm = "A type of imperative. Organized as objects that encapsulate both data and behavior to design programs";
             string logicParadigm = "";
-            string declarativeParadigm = "";
+            string functionalParadigm = "";
+            string declarativeParadigm = "Code delcares properties of the desired results";            
 
             Console.WriteLine("Hello, World!");
         }

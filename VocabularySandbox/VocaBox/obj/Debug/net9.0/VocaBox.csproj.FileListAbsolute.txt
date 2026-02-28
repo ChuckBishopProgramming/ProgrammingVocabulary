@@ -1,0 +1,15 @@
+C:\Users\rockh\Source\Repos\ProgrammingVocabulary\VocabularySandbox\VocaBox\bin\Debug\net9.0\VocaBox.exe
+C:\Users\rockh\Source\Repos\ProgrammingVocabulary\VocabularySandbox\VocaBox\bin\Debug\net9.0\VocaBox.deps.json
+C:\Users\rockh\Source\Repos\ProgrammingVocabulary\VocabularySandbox\VocaBox\bin\Debug\net9.0\VocaBox.runtimeconfig.json
+C:\Users\rockh\Source\Repos\ProgrammingVocabulary\VocabularySandbox\VocaBox\bin\Debug\net9.0\VocaBox.dll
+C:\Users\rockh\Source\Repos\ProgrammingVocabulary\VocabularySandbox\VocaBox\bin\Debug\net9.0\VocaBox.pdb
+C:\Users\rockh\Source\Repos\ProgrammingVocabulary\VocabularySandbox\VocaBox\obj\Debug\net9.0\VocaBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rockh\Source\Repos\ProgrammingVocabulary\VocabularySandbox\VocaBox\obj\Debug\net9.0\VocaBox.AssemblyInfoInputs.cache
+C:\Users\rockh\Source\Repos\ProgrammingVocabulary\VocabularySandbox\VocaBox\obj\Debug\net9.0\VocaBox.AssemblyInfo.cs
+C:\Users\rockh\Source\Repos\ProgrammingVocabulary\VocabularySandbox\VocaBox\obj\Debug\net9.0\VocaBox.csproj.CoreCompileInputs.cache
+C:\Users\rockh\Source\Repos\ProgrammingVocabulary\VocabularySandbox\VocaBox\obj\Debug\net9.0\VocaBox.sourcelink.json
+C:\Users\rockh\Source\Repos\ProgrammingVocabulary\VocabularySandbox\VocaBox\obj\Debug\net9.0\VocaBox.dll
+C:\Users\rockh\Source\Repos\ProgrammingVocabulary\VocabularySandbox\VocaBox\obj\Debug\net9.0\refint\VocaBox.dll
+C:\Users\rockh\Source\Repos\ProgrammingVocabulary\VocabularySandbox\VocaBox\obj\Debug\net9.0\VocaBox.pdb
+C:\Users\rockh\Source\Repos\ProgrammingVocabulary\VocabularySandbox\VocaBox\obj\Debug\net9.0\VocaBox.genruntimeconfig.cache
+C:\Users\rockh\Source\Repos\ProgrammingVocabulary\VocabularySandbox\VocaBox\obj\Debug\net9.0\ref\VocaBox.dll
