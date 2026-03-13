@@ -1,5 +1,10 @@
 ﻿namespace VocaBox
 {
+    // NAME: Chuck Bishop
+    // DATE: 
+    // PURPOSE: 
+    // NOTES: intellisense provides a good portion of these definitions
+
     // GOAL:
     // keep track of integral vocabulary
     // provide examples where possible
@@ -42,14 +47,14 @@
             string attributeQUESTION = "Question: How is an attribute different than a property? ";            
             string attributeANSWER = "field and property are part of the object's state and behavior, ATTRIBUTE describes the code itself. Not the object.";
 
-            string properties = "something it has";
-            string behavior = "something it does";
+            string properties = "something it has, something it knows";
+            string behavior = "something it does, a behavior it has";
 
             string reservedKeyWord = "special words that cannot be used as string names";
             string classKeywordII = "used before a class is declared";
 
             string parentClass = "";
-            string childClass = "";
+            string childClass = "Derives from parent class";
 
             //Access Keywords
             //========================================================================
@@ -63,7 +68,7 @@
             string virtualKeyword = "The parent method can be replaced (optional)";
             string overrideKeyword = "The child method IS replacing it";
             string abstractKeyword = "MUST be overriden (nothing inside)";
-            string sealedKeyword = "";
+            string sealedKeyword = "Cannot be overriden";
             string newKeyword = "";
 
             //Class keywords - what kind of class
@@ -124,11 +129,14 @@
             //Design Terms
             //========================================================================
             string greenField = "refers to creating a system, application or project entirely from scratch. Has no contraints for existing infrastructure or legacy code. Term comes from real estate. ";
+            string iterativeDesign = "create a prototype, testing it, and then refining the design based on feedback and results. This process is repeated until a final design is achieved. It allows for flexibility and adaptability in the design process, as changes can be made based on user feedback and testing results.";
 
             //People to Know
             //========================================================================
-            string godbolt = "Matt 'compliler' Godbolt";
-            string uncleBob = "Robert 'Uncle Bob' Martin: Clean Code";
+            string godbolt = "Matt 'compliler' Godbolt: creator of godbolt compiler";
+            string uncleBob = "Robert 'Uncle Bob' Martin: Creator of clean Code and popular author";
+            string linusTorvalds = "Linus Torvals: Creator of Linux and Git";
+            string charlesSimonyi = "Charles Simonyi: Creator of Microsoft Word and Excel. Originator of Hungarian Notation";
 
             //Software Paradigms
             //========================================================================
@@ -137,7 +145,24 @@
             string objectOrientedParadigm = "A type of imperative. Organized as objects that encapsulate both data and behavior to design programs";
             string logicParadigm = "";
             string functionalParadigm = "";
-            string declarativeParadigm = "Code delcares properties of the desired results";            
+            string declarativeParadigm = "Code delcares properties of the desired results";
+
+            //Database Terms
+            //========================================================================
+            string database = "An organized collection of data that can be easily accessed, managed, and updated.";
+            string table = "A collection of related data entries that consists of columns and rows.";
+            string row = "";
+            string column = "";
+
+            //CLI Bash terms
+            //========================================================================
+            string knernel = "The core of an operating system, responsible for managing system resources and facilitating communication between hardware and software components.";
+            string bash = "A Unix shell and command language that provides a command-line interface for users to interact with the operating system.";
+            string bourneShell = "The original Unix shell, developed by Stephen Bourne. It served as the basis for many subsequent shells, including Bash.";
+            string bourneAgainShell = "An enhanced version of the Bourne Shell, developed by Brian Fox. It is the default shell on many Linux distributions and macOS.";
+            string vi = "A powerful text editor that is commonly used in Unix-like operating systems. It is known for its efficiency and extensive features, but has a steep learning curve for beginners.";
+            string vim = "An improved version of the vi editor, created by Bram Moolenaar. It offers additional features and enhancements while maintaining compatibility with vi.";
+
 
             Console.WriteLine("Hello, World!");
         }
