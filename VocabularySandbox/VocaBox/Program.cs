@@ -50,7 +50,8 @@
             string behavior = "something it does, a behavior it has";
 
             string reservedKeyWord = "special words that cannot be used as string names";
-            string classKeywordII = "used before a class is declared";                       
+            string classKeywordII = "used before a class is declared";   
+            string unixTime = "milliseconds since January 1, 1970. Used in many programming languages to represent time as a single number. Can be converted to human readable date formats.";
             
 
             //Access Keywords
@@ -215,7 +216,7 @@
             string databaseServer = "Stores or persists data between requests and visits";
             string client = "A user accessing website via mobile or laptop. Recieves html, css and javascript to be executed in the browser.";
 
-            //Javascript Syntax
+            //JavaScript Syntax
             //========================================================================
             string jsCaseSensitivity = "JavaScript is case sensitive, variables must be written with consistent capitalization. myPickle and MyPickle are different variables.";
             string jsLineTermination = "JavaScript does not need semi colons to terminate lines but it's considered good practice to use them. Similar to html it will automatically insert them at the end of lines but this can lead to unexpected results in some cases.";
@@ -231,15 +232,37 @@
             string jsRawStringLiteral = "enclosed in backticks. `` Can contain variables and expressions inside ${}. Can span multiple lines without the need for escape characters.";
             string jsEscapeCharacter = "\\ Used to escape special characters in a string. You can use a opposite type of quote to avoid using escape: \"string's\" or \'\"happy\"\'";
             string jsTemplateString = "raw string literal. Enclosed in backticks ``";
+            string jsDates = "To work with dates we instantiate a new date object: let date = new Date(); This creates a new date object with the current date and time. This is the client's computer's date and time.";
 
-            //Javascript String Methods
+            //JavaScript String Methods
             //========================================================================
             string jsDotLength = """ .length // Type: Property. Returns the length of a string. Example: 'hello'.length returns 5.""";
-            string jsDotSubstring = """ .substring() // Type: Method. Returns a portion of a string between the start and end indexes. Example: 'hello world'.substring(0, 5) returns 'hello'.""";
+            string jsDotSubstring = """ .substring() // Type: Method. Returns a portion of a string between the start and end indexes. Including the first number, excluding the second. Example: 'hello world'.substring(0, 5) returns 'hello'.""";
             string jsDotToUpperCase = """ .toUpperCase() // Type: Method. Returns a new string with all characters converted to uppercase. Example: 'hello'.toUpperCase() returns 'HELLO'.""";
             string jsDotToLowerCase = """ .toLowerCase() // Type: Method. Returns a new string with all characters converted to lowercase. Example: 'HELLO'.toLowerCase() returns 'hello'.""";
             string jsDotIndexOf = """ .indexOf() // Type: Method. Returns the index of the first occurrence of a specified value in a string. Example: 'hello world'.indexOf('world') returns 6.""";
             string jsDotTrim = """ .trim() // Type: Method. Returns a new string with whitespace removed from both ends of the original string. Example: '  hello  '.trim() returns 'hello'.""";
+
+            //JavaScript Date Methods
+            //========================================================================
+            string jsToDateString = """ .toDateString() // Type: Method. Returns the date portion of a date object as a human-readable string. Example: let date = new Date('1990-01-01'); date.toDateString() returns 'Mon Jan 01 1990'.""";
+            string jsDateGetFullYear = """ .getFullYear() // Type: Method. Returns the year of a date object as a four-digit number. Example: let date = new Date('1990-01-01'); date.getFullYear() returns 1990.""";
+            string jsDateGetMonth = """ .getMonth() // Type: Method. Returns the month of a date object as a zero-based index (0-11). Example: let date = new Date('1990-01-01'); date.getMonth() returns 0 for January.""";
+            string jsDateGetDate = """ .getDate() // Type: Method. Returns the day of the month of a date object as a number (1-31). Example: let date = new Date('1190-01-01'); date.getDate() returns 1.""";
+            string jsDateToString = """ .toString() // Type: Method. Returns a string representation of a date object. Example: let date = new Date('1990-01-01'); date.toString() returns 'Mon Jan 01 1990 00:00:00 GMT+0000 (Coordinated Universal Time)'.""";
+            string jsDateToTimeString = """ .toTimeString() // Type: Method. Returns the time portion of a date object as a human-readable string. Example: let date = new Date('1990-01-01T12:30:00'); date.toTimeString() returns '12:30:00 GMT+0000 (Coordinated Universal Time)'.""";
+            string jsDateGetTime = """ .getTime() // Type: Method. Returns the number of milliseconds since January 1, 1970 for a date object. Example: let date = new Date('1990-01-01'); date.getTime() returns 631152000000.""";
+            string jsDateGetHours = """ .getHours() // Type: Method. Returns the hour of a date object as a number (0-23). Example: let date = new Date('1990-01-01T12:30:00'); date.getHours() returns 12.""";
+            string jsDateGetMinutes = """ .getMinutes() // Type: Method. Returns the minutes of a date object as a number (0-59). Example: let date = new Date('1990-01-01T12:30:00'); date.getMinutes() returns 30.""";
+            string jsDateGetSeconds = """ .getSeconds() // Type: Method. Returns the seconds of a date object as a number (0-59). Example: let date = new Date('1990-01-01T12:30:45'); date.getSeconds() returns 45.""";
+            string jsDateGetMilliseconds = """ .getMilliseconds() // Type: Method. Returns the milliseconds of a date object as a number (0-999). Example: let date = new Date('1990-01-01T12:30:00.500'); date.getMilliseconds() returns 500.""";
+
+            //JavaScript Date Constructors
+            //========================================================================
+            string jsConstructorSpecificDate = """ new Date('year, month, day, hour, min, milliseconds') // Type: Constructor. Creates a new date object with the specified date. Example: let date = new Date('1990, 0, 1, 12, 30'); creates a date object representing January 1, 1990.""";
+            string jsConstructorNewDate = """ new Date() // Type: Constructor. Creates a new date object with the current date and time. Example: let date = new Date(); creates a date object representing the current date and time.""";
+            string jsConstructorMilliseconds = """ new Date(milliseconds) // Type: Constructor. Creates a new date object based on the number of milliseconds since January 1, 1970. Example: let date = new Date(0); creates a date object representing January 1, 1970.""";
+            string jsConstructorDateString = """ new Date(dateString) // Type: Constructor. Creates a new date object based on a date string. Example: let date = new Date('1990-01-01'); creates a date object representing January 1, 1990.""";
 
             //C# Syntax
             //========================================================================
