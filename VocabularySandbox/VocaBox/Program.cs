@@ -135,6 +135,23 @@
             string charlesSimonyi = "Charles Simonyi: Creator of Microsoft Word and Excel. Originator of Hungarian Notation";
             string brendanEich = "Brendan Eich: Creator of JavaScript and co-founder of Mozilla";
 
+            //Programming Fundamentals
+            //========================================================================
+            string assignment = " = Assigns the value on the right to the variable on the left. Uses the = operator.";
+            string add = " + Adds two values together. Uses the + operator.";
+            string subtract = " - Subtracts the value on the right from the value on the left. Uses the - operator.";
+            string multiply = " * Multiplies two values together. Uses the * operator.";
+            string divide = " / Divides the value on the left by the value on the right. Uses the / operator.";
+            string modulus = " % Takes the modulus of the value on the left by the value on the right. Uses the % operator.";
+            string increment = " ++ Increases the value of a variable by 1. Uses the ++ operator.";
+            string decrement = " -- Decreases the value of a variable by 1. Uses the -- operator.";
+            string addAndAssign = " += Adds the value on the right to the variable on the left and assigns the result to the variable on the left.";
+            string subtractAndAssign = " -= Subtracts the value on the right from the variable on the left and assigns the result to the variable on the left.";
+            string multiplyAndAssign = " *= Multiplies the variable on the left by the value on the right and assigns the result to the variable on the left.";
+            string divideAndAssign = " /= Divides the variable on the left by the value on the right and assigns the result to the variable on the left.";
+            string modulusAndAssign = " %= Takes the modulus of the variable on the left by the value on the right and assigns the result to the variable on the left.";
+
+
             //Software Paradigms
             //========================================================================
             string paradigm = "Theoretical framework or process for developing and designing software. ";
@@ -171,7 +188,6 @@
             string looselyTypedLanguage = "A programming language that does not require explicit type declarations for variables. Examples include JavaScript and Python.";
             string stronglyTypedLanguage = "A programming language that requires explicit type declarations for variables. Examples include C#, Java, and C++.";
 
-
             //Website Terms
             //========================================================================
             string clientServerArchitecture = "1. site loads in browser from the server. 2. client side scripts run in the browser. Process requests without callbacks. 3. When a call is required javascipt and ajax send it to back end. 4. backend server scripts process and pull. 5. Server side scripts process the data then updates the site"; ";
@@ -184,6 +200,13 @@
             string jsCaseSensitivity = "JavaScript is case sensitive, variables must be written with consistent capitalization. myPickle and MyPickle are different variables.";
             string jsLineTermination = "JavaScript does not need semi colons to terminate lines but it's considered good practice to use them. Similar to html it will automatically insert them at the end of lines but this can lead to unexpected results in some cases.";
             string jsAuthoringComments = "Line1: /** Line2: * Author: <name> Line3: * Title: <title> Line4: * Date: <date> Line5: */";
+            string jsVariableDefinition = "Can contain letters, numbers, underscores and dollar signs. Cannot start with a number. Case sensitive. Cannot be a reserved keyword.";
+            string jsReservedKeywords = "abstract, boolean, break, byte, case, catch, char, class, const, continue, debugger, default, delete, do, double, else, enum, export, extends, final, finally, float, for, function, goto, if, implements, import, in, instanceof, int, interface, long, new, null, package, private, protected, public, return, short, static, super, switch, synchronized, this, throw, transient, true, try, typeof, var, void, volatile, while, with and let";
+            string jsLineComments = "Single line: // comment goes here.";
+            string jsBlockComments = "Multi line: /* comment goes here */";
+            string letKeyword = "Used to declare block-scoped variables. Variables declared with let are only accessible within the block they are defined in.";
+            string varKeyword = "Used to declare function-scoped variables. Variables declared with var are accessible throughout the entire function they are defined in, regardless of block scope. Can be redeclared.";
+            string jsGotcha = "typeof null is object. This is a quirk of JavaScript and can lead to unexpected results when checking for null values. It's important to be aware of this when working with JavaScript.";
 
             Console.WriteLine("Hello, World!");
         }
