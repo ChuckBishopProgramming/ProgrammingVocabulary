@@ -167,7 +167,9 @@
             string compiledLanguage = "A programming language that is translated from human readable code into machine code that can be executed directly by a computer's processor. Examples include C, C++, and Java.";
             string scriptingHost = "A web browser with a scipting engine that can execute JavaScript code. Examples include Google Chrome, Mozilla Firefox, and Microsoft Edge.";
             string frontEndDevelopment = "The user interface and user experience. It involves using HTML, CSS, and JavaScript.";
-            string backEndDevelopment = "The server side of web development. It involves working with databases, server logic, and APIs. Common languages include Python, Ruby, Java, and PHP.";
+            string backEndDevelopment = "The server side of web development. It involves working with databases, server logic, and APIs. Common languages include Python, Ruby, Java, and PHP, Perl.";
+            string looselyTypedLanguage = "A programming language that does not require explicit type declarations for variables. Examples include JavaScript and Python.";
+            string stronglyTypedLanguage = "A programming language that requires explicit type declarations for variables. Examples include C#, Java, and C++.";
 
 
             //Website Terms
@@ -176,6 +178,12 @@
             string webServer = "Hosts: static html files and assets, css files, javascript files, server side code for dynamic html, recieves requests from clients, access data from database, sends response back to client";
             string databaseServer = "Stores or persists data between requests and visits";
             string client = "A user accessing website via mobile or laptop. Recieves html, css and javascript to be executed in the browser.";
+
+            //Javascript Syntax
+            //========================================================================
+            string jsCaseSensitivity = "JavaScript is case sensitive, variables must be written with consistent capitalization. myPickle and MyPickle are different variables.";
+            string jsLineTermination = "JavaScript does not need semi colons to terminate lines but it's considered good practice to use them. Similar to html it will automatically insert them at the end of lines but this can lead to unexpected results in some cases.";
+            string jsAuthoringComments = "Line1: /** Line2: * Author: <name> Line3: * Title: <title> Line4: * Date: <date> Line5: */";
 
             Console.WriteLine("Hello, World!");
         }
