@@ -150,6 +150,10 @@
             string multiplyAndAssign = " *= Multiplies the variable on the left by the value on the right and assigns the result to the variable on the left.";
             string divideAndAssign = " /= Divides the variable on the left by the value on the right and assigns the result to the variable on the left.";
             string modulusAndAssign = " %= Takes the modulus of the variable on the left by the value on the right and assigns the result to the variable on the left.";
+            string incrementAndAct = "++a, increment the variable then use it.";
+            string ActAndIncrement = "a++, use the variable then increment it.";
+            string stringConcatenation = " + Combines two strings together. Uses the + operator.";
+            string stringConcatenationAssignment = " += Combines the string on the right with the variable on the left and assigns the result to the variable on the left.";
 
 
             //Software Paradigms
@@ -207,6 +211,8 @@
             string letKeyword = "Used to declare block-scoped variables. Variables declared with let are only accessible within the block they are defined in.";
             string varKeyword = "Used to declare function-scoped variables. Variables declared with var are accessible throughout the entire function they are defined in, regardless of block scope. Can be redeclared.";
             string jsGotcha = "typeof null is object. This is a quirk of JavaScript and can lead to unexpected results when checking for null values. It's important to be aware of this when working with JavaScript.";
+            string jsString = "enclosed in single or double quotes. Can use backticks for template literals which allow for string interpolation and multi-line strings. Use double quotes for this course.";
+
 
             Console.WriteLine("Hello, World!");
         }
