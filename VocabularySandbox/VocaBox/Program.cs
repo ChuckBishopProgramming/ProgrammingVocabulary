@@ -160,6 +160,16 @@
             string stringConcatenationAssignment = " += Combines the string on the right with the variable on the left and assigns the result to the variable on the left.";
             string newLine = "\\n";
             string escapeCharacter = "\\ Used to escape special characters in a string. For example, \\n is used to represent a new line character in a string.";
+            string horizontalTab = "\\t Used to represent a horizontal tab character in a string.";
+            string verticalTab = "\\v Used to represent a vertical tab character in a string. Not commonly used in many languages.!";
+            string nullCharacter = "\\0 Used to represent a null character in a string. It is often used to indicate the end of a string in languages like C and C++.";
+            string backspaceCharacter = "\\b Used to represent a backspace character in a string. It is used to move the cursor back one position in the output.";
+            string formFeedCharacter = "\\f Used to represent a form feed character in a string. It is used to advance the output to the next page or section.";
+            string NewLineCharacter = "\\n Used to represent a new line character in a string. It is used to move the cursor to the next line in the output.";
+            string CarriageReturnCharacter = "\\r Used to represent a carriage return character in a string. It is used to move the cursor to the beginning of the current line in the output.";
+            string singleQuoteCharacter = "\\' Used to represent a single quote character in a string. It is used to include a single quote within a string that is enclosed in single quotes.";
+            string doubleQuoteCharacter = "\\\" Used to represent a double quote character in a string. It is used to include a double quote within a string that is enclosed in double quotes.";
+            string backslashCharacter = "\\\\ Used to represent a backslash character in a string. It is used to include a backslash within a string.";
 
 
             //Software Paradigms
@@ -219,6 +229,8 @@
             string jsGotcha = "typeof null is object. This is a quirk of JavaScript and can lead to unexpected results when checking for null values. It's important to be aware of this when working with JavaScript.";
             string jsString = "enclosed in single or double quotes. Can use backticks for template literals which allow for string interpolation and multi-line strings. Use double quotes for this course.";
             string jsRawStringLiteral = "enclosed in backticks. `` Can contain variables and expressions inside ${}. Can span multiple lines without the need for escape characters.";
+            string jsEscapeCharacter = "\\ Used to escape special characters in a string. You can use a opposite type of quote to avoid using escape: \"string's\" or \'\"happy\"\'";
+            string jsTemplateString = "raw string literal. Enclosed in backticks ``";
 
             //C# Syntax
             //========================================================================
