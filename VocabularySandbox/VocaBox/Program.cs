@@ -3,7 +3,7 @@
     // NAME: Chuck Bishop
     // DATE: 
     // PURPOSE: 
-    // NOTES: intellisense provides a good portion of these definitions
+    // NOTES: intellisense provides a good portion of these definitions. 
 
     // GOAL:
     // keep track of integral vocabulary
@@ -24,6 +24,10 @@
     //PLANS
     // Split into separate classes for each category (Class Practice)
     // Create collections for categories of words
+    // Create an index of words and definitions
+    // Organize words by category and alphabetically
+    // Create a mini search engine to search for words and definitions
+    // Create a mini quiz mode to test knowledge of words and definitions
     internal class Program       
     {
         static void Main(string[] args)
@@ -154,6 +158,8 @@
             string ActAndIncrement = "a++, use the variable then increment it.";
             string stringConcatenation = " + Combines two strings together. Uses the + operator.";
             string stringConcatenationAssignment = " += Combines the string on the right with the variable on the left and assigns the result to the variable on the left.";
+            string newLine = "\\n";
+            string escapeCharacter = "\\ Used to escape special characters in a string. For example, \\n is used to represent a new line character in a string.";
 
 
             //Software Paradigms
@@ -212,6 +218,11 @@
             string varKeyword = "Used to declare function-scoped variables. Variables declared with var are accessible throughout the entire function they are defined in, regardless of block scope. Can be redeclared.";
             string jsGotcha = "typeof null is object. This is a quirk of JavaScript and can lead to unexpected results when checking for null values. It's important to be aware of this when working with JavaScript.";
             string jsString = "enclosed in single or double quotes. Can use backticks for template literals which allow for string interpolation and multi-line strings. Use double quotes for this course.";
+            string jsRawStringLiteral = "enclosed in backticks. `` Can contain variables and expressions inside ${}. Can span multiple lines without the need for escape characters.";
+
+            //C# Syntax
+            //========================================================================
+            string cSharpRawStringLiteral = "enclosed in triple quotes. \"\"\" Can contain variables and expressions inside {}. Can span multiple lines without the need for escape characters.";
 
 
             Console.WriteLine("Hello, World!");
