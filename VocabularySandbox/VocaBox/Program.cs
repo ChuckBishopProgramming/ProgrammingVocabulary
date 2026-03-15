@@ -245,24 +245,24 @@
 
             //JavaScript Date Methods
             //========================================================================
-            string jsToDateString = """ .toDateString() // Type: Method. Returns the date portion of a date object as a human-readable string. Example: let date = new Date('1990-01-01'); date.toDateString() returns 'Mon Jan 01 1990'.""";
-            string jsDateGetFullYear = """ .getFullYear() // Type: Method. Returns the year of a date object as a four-digit number. Example: let date = new Date('1990-01-01'); date.getFullYear() returns 1990.""";
-            string jsDateGetMonth = """ .getMonth() // Type: Method. Returns the month of a date object as a zero-based index (0-11). Example: let date = new Date('1990-01-01'); date.getMonth() returns 0 for January.""";
-            string jsDateGetDate = """ .getDate() // Type: Method. Returns the day of the month of a date object as a number (1-31). Example: let date = new Date('1190-01-01'); date.getDate() returns 1.""";
-            string jsDateToString = """ .toString() // Type: Method. Returns a string representation of a date object. Example: let date = new Date('1990-01-01'); date.toString() returns 'Mon Jan 01 1990 00:00:00 GMT+0000 (Coordinated Universal Time)'.""";
-            string jsDateToTimeString = """ .toTimeString() // Type: Method. Returns the time portion of a date object as a human-readable string. Example: let date = new Date('1990-01-01T12:30:00'); date.toTimeString() returns '12:30:00 GMT+0000 (Coordinated Universal Time)'.""";
-            string jsDateGetTime = """ .getTime() // Type: Method. Returns the number of milliseconds since January 1, 1970 for a date object. Example: let date = new Date('1990-01-01'); date.getTime() returns 631152000000.""";
-            string jsDateGetHours = """ .getHours() // Type: Method. Returns the hour of a date object as a number (0-23). Example: let date = new Date('1990-01-01T12:30:00'); date.getHours() returns 12.""";
-            string jsDateGetMinutes = """ .getMinutes() // Type: Method. Returns the minutes of a date object as a number (0-59). Example: let date = new Date('1990-01-01T12:30:00'); date.getMinutes() returns 30.""";
-            string jsDateGetSeconds = """ .getSeconds() // Type: Method. Returns the seconds of a date object as a number (0-59). Example: let date = new Date('1990-01-01T12:30:45'); date.getSeconds() returns 45.""";
-            string jsDateGetMilliseconds = """ .getMilliseconds() // Type: Method. Returns the milliseconds of a date object as a number (0-999). Example: let date = new Date('1990-01-01T12:30:00.500'); date.getMilliseconds() returns 500.""";
+            string jsToDateString = """ .toDateString() // Returns the date portion of a date object as a human-readable string. Example: let date = new Date('1990-01-01'); date.toDateString() returns 'Mon Jan 01 1990'.""";
+            string jsDateGetFullYear = """ .getFullYear() // Returns the year of a date object as a four-digit number. Example: let date = new Date('1990-01-01'); date.getFullYear() returns 1990.""";
+            string jsDateGetMonth = """ .getMonth() // Returns the month of a date object as a zero-based index (0-11). Example: let date = new Date('1990-01-01'); date.getMonth() returns 0 for January.""";
+            string jsDateGetDate = """ .getDate() //  Returns the day of the month of a date object as a number (1-31). Example: let date = new Date('1190-01-01'); date.getDate() returns 1.""";
+            string jsDateToString = """ .toString() //  Returns a string representation of a date object. Example: let date = new Date('1990-01-01'); date.toString() returns 'Mon Jan 01 1990 00:00:00 GMT+0000 (Coordinated Universal Time)'.""";
+            string jsDateToTimeString = """ .toTimeString() //  Returns the time portion of a date object as a human-readable string. Example: let date = new Date('1990-01-01T12:30:00'); date.toTimeString() returns '12:30:00 GMT+0000 (Coordinated Universal Time)'.""";
+            string jsDateGetTime = """ .getTime() //  Returns the number of milliseconds since January 1, 1970 for a date object. Example: let date = new Date('1990-01-01'); date.getTime() returns 631152000000.""";
+            string jsDateGetHours = """ .getHours() //  Returns the hour of a date object as a number (0-23). Example: let date = new Date('1990-01-01T12:30:00'); date.getHours() returns 12.""";
+            string jsDateGetMinutes = """ .getMinutes() // Returns the minutes of a date object as a number (0-59). Example: let date = new Date('1990-01-01T12:30:00'); date.getMinutes() returns 30.""";
+            string jsDateGetSeconds = """ .getSeconds() // Returns the seconds of a date object as a number (0-59). Example: let date = new Date('1990-01-01T12:30:45'); date.getSeconds() returns 45.""";
+            string jsDateGetMilliseconds = """ .getMilliseconds() // Returns the milliseconds of a date object as a number (0-999). Example: let date = new Date('1990-01-01T12:30:00.500'); date.getMilliseconds() returns 500.""";
 
             //JavaScript Date Constructors
             //========================================================================
-            string jsConstructorSpecificDate = """ new Date('year, month, day, hour, min, milliseconds') // Type: Constructor. Creates a new date object with the specified date. Example: let date = new Date('1990, 0, 1, 12, 30'); creates a date object representing January 1, 1990.""";
-            string jsConstructorNewDate = """ new Date() // Type: Constructor. Creates a new date object with the current date and time. Example: let date = new Date(); creates a date object representing the current date and time.""";
-            string jsConstructorMilliseconds = """ new Date(milliseconds) // Type: Constructor. Creates a new date object based on the number of milliseconds since January 1, 1970. Example: let date = new Date(0); creates a date object representing January 1, 1970.""";
-            string jsConstructorDateString = """ new Date(dateString) // Type: Constructor. Creates a new date object based on a date string. Example: let date = new Date('1990-01-01'); creates a date object representing January 1, 1990.""";
+            string jsConstructorSpecificDate = """ new Date('year, month, day, hour, min, milliseconds') // Creates a new date object with the specified date. Example: let date = new Date('1990, 0, 1, 12, 30'); creates a date object representing January 1, 1990.""";
+            string jsConstructorNewDate = """ new Date() // Creates a new date object with the current date and time. Example: let date = new Date(); creates a date object representing the current date and time.""";
+            string jsConstructorMilliseconds = """ new Date(milliseconds) // Creates a new date object based on the number of milliseconds since January 1, 1970. Example: let date = new Date(0); creates a date object representing January 1, 1970.""";
+            string jsConstructorDateString = """ new Date(dateString) // Creates a new date object based on a date string. Example: let date = new Date('1990-01-01'); creates a date object representing January 1, 1990.""";
 
             //C# Syntax
             //========================================================================
