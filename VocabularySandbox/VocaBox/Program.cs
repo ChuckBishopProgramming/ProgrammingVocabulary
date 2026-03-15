@@ -35,12 +35,7 @@
 
             string objectKeyword = "An object is an instance of a class. Needs the new keyword. It's an implementation of the class";
             // Customer customer1 = new Customer();
-            // Name of class (type of object) name of object = new (keyword) constructor
-
-            string instance = "A specific occurance of a class";
-
-            string programming = "giving machines precise step by step instructions to carry out various tasks";
-
+            // Name of class (type of object) name of object = new (keyword) constructor         
             string classKeyword = "the template for a classes behaviors and attributes";
 
             string attribute = "A form of metadata.";
@@ -51,10 +46,8 @@
             string behavior = "something it does, a behavior it has";
 
             string reservedKeyWord = "special words that cannot be used as string names";
-            string classKeywordII = "used before a class is declared";
-
-            string parentClass = "";
-            string childClass = "Derives from parent class";
+            string classKeywordII = "used before a class is declared";                       
+            
 
             //Access Keywords
             //========================================================================
@@ -70,6 +63,8 @@
             string abstractKeyword = "MUST be overriden (nothing inside)";
             string sealedKeyword = "Cannot be overriden";
             string newKeyword = "";
+            string parentClass = "";
+            string childClass = "Derives from parent class";
 
             //Class keywords - what kind of class
             //========================================================================
@@ -77,6 +72,7 @@
             string abstractKeywordII = "can't be instantiated, may contain abstract members";
             string staticKeyword = "can't be instantied, only static members. Belongs to the class and does not require an onject";
             string partialKeyword = "";
+            string instance = "A specific occurance of a class";
 
             //Member keywords - describes what the member is
             //========================================================================
@@ -163,6 +159,13 @@
             string bourneAgainShell = "An enhanced version of the Bourne Shell, developed by Brian Fox. It is the default shell on many Linux distributions and macOS.";
             string vi = "A powerful text editor that is commonly used in Unix-like operating systems. It is known for its efficiency and extensive features, but has a steep learning curve for beginners.";
             string vim = "An improved version of the vi editor, created by Bram Moolenaar. It offers additional features and enhancements while maintaining compatibility with vi.";
+
+            //Programming Terms
+            //========================================================================
+            string programming = "giving machines precise step by step instructions to carry out various tasks";
+            string scriptingLanguage = "A programming language that is run line by line and is not compiled. Often used for web development and automation tasks. Examples include JavaScript, Python, and Ruby.";
+            string compiledLanguage = "A programming language that is translated from human readable code into machine code that can be executed directly by a computer's processor. Examples include C, C++, and Java.";
+            string scriptingHost = "A web browser with a scipting engine that can execute JavaScript code. Examples include Google Chrome, Mozilla Firefox, and Microsoft Edge.";
 
 
             Console.WriteLine("Hello, World!");
