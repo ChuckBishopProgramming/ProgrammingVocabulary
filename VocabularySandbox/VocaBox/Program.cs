@@ -238,6 +238,15 @@
             string jsDatesAdding = """ pickleDate = demoDate.getDate() + 20; This adds 20 days to demoDate.""";
             string jsDatesSubtracting = """ pickleDate = demoDate.getDate() - 20; This subtracts 20 days from demoDate.""";
 
+            //JavaScript + HTML Syntax
+            //========================================================================
+            string embeddedJavaScript = "<script> JavaScript code goes here </script> Used to include JavaScript code in an HTML document. Generally placed within <head> but can go anywhere.";
+            string externalJavaScript = "<script src=\"path/to/script.js\"></script> Used to include an external JavaScript file in an HTML document. Generally placed within <head> but can go anywhere.";
+            string jsPromptFunction = """ prompt('message','default value') // Displays a dialog box that prompts the user for input. The message parameter is the text to display in the dialog box, default fills default msg. Returns the user's input as a string. Example: let name = prompt('What is your name?'); """;
+            string jsAlertFunction = """ alert('message') // Displays an alert dialog box with the specified message. Example: alert('Hello, World!'); """;
+
+
+
             //JavaScript String Methods
             //========================================================================
             string jsDotLength = """ .length // Type: Property. Returns the length of a string. Example: 'hello'.length returns 5.""";
@@ -249,6 +258,8 @@
 
             //JavaScript Date Methods
             //========================================================================
+            string jsDateGotcha = "when creating specific date, month is zero indexed. January is 0, December is 11. This can lead to unexpected results when creating date objects with specific dates.";
+            string jsDateGotchaDate = "There is no set day. setDate() is set day, everything else is named";
             string jsToDateString = """ .toDateString() // Returns the date portion of a date object as a human-readable string. Example: let date = new Date('1990-01-01'); date.toDateString() returns 'Mon Jan 01 1990'.""";                        
             string jsDateToString = """ .toString() //  Returns a string representation of a date object. Example: let date = new Date('1990-01-01'); date.toString() returns 'Mon Jan 01 1990 00:00:00 GMT+0000 (Coordinated Universal Time)'.""";
             string jsDateToTimeString = """ .toTimeString() //  Returns the time portion of a date object as a human-readable string. Example: let date = new Date('1990-01-01T12:30:00'); date.toTimeString() returns '12:30:00 GMT+0000 (Coordinated Universal Time)'.""";
@@ -270,7 +281,6 @@
             string jsDateSetMinutes = """ .setMinutes(minutes) // Sets the minutes of a date object. Example: let date = new Date('1990-01-01T12:30:00'); date.setMinutes(45); date.toTimeString() returns '12:45:00 GMT+0000 (Coordinated Universal Time)'.""";
             string jsDateSetSeconds = """ .setSeconds(seconds) // Sets the seconds of a date object. Example: let date = new Date('1990-01-01T12:30:00'); date.setSeconds(45); date.toTimeString() returns '12:30:45 GMT+0000 (Coordinated Universal Time)'.""";
             string jsDateSetMilliseconds = """ .setMilliseconds(milliseconds) // Sets the milliseconds of a date object. Example: let date = new Date('1990-01-01T12:30:00.500'); date.setMilliseconds(250); date.toTimeString() returns '12:30:00 GMT+0000 (Coordinated Universal Time)'.""";
-
 
             //JavaScript Date Constructors
             //========================================================================
