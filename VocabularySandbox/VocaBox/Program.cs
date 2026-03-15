@@ -173,6 +173,9 @@
             //Website Terms
             //========================================================================
             string clientServerArchitecture = "1. site loads in browser from the server. 2. client side scripts run in the browser. Process requests without callbacks. 3. When a call is required javascipt and ajax send it to back end. 4. backend server scripts process and pull. 5. Server side scripts process the data then updates the site"; ";
+            string webServer = "Hosts: static html files and assets, css files, javascript files, server side code for dynamic html, recieves requests from clients, access data from database, sends response back to client";
+            string databaseServer = "Stores or persists data between requests and visits";
+            string client = "A user accessing website via mobile or laptop. Recieves html, css and javascript to be executed in the browser.";
 
             Console.WriteLine("Hello, World!");
         }
