@@ -172,6 +172,12 @@
             string singleQuoteCharacter = "\\' Used to represent a single quote character in a string. It is used to include a single quote within a string that is enclosed in single quotes.";
             string doubleQuoteCharacter = "\\\" Used to represent a double quote character in a string. It is used to include a double quote within a string that is enclosed in double quotes.";
             string backslashCharacter = "\\\\ Used to represent a backslash character in a string. It is used to include a backslash within a string.";
+            string tryCatchFinally = "try: code that may throw an exception. catch: code to handle the exception if it is thrown. finally: code that will always be executed after the try and catch blocks, regardless of whether an exception was thrown or caught.";
+            string controlStatement = "A statement that controls the flow of execution in a program. Examples: if, else, switch, for, while, do-while, etc.";
+            string conditionalStatement = "A statement that evaluates a condition and executes code if true. Examples: if, else if, else, switch, etc.";
+            string conditionalExpression = "Returns boolean true or false.";
+            string relationalOperator = "Used to compare two values. Examples: ==, !=, >, <, >=, <=.";
+            string logicalOperator = "Used to combine or invert boolean values. Examples: &&, ||, !.";
 
 
             //Software Paradigms
@@ -238,12 +244,28 @@
             string jsDatesAdding = """ pickleDate = demoDate.getDate() + 20; This adds 20 days to demoDate.""";
             string jsDatesSubtracting = """ pickleDate = demoDate.getDate() - 20; This subtracts 20 days from demoDate.""";
 
+            //JavaScript Gotchas
+            //========================================================================
+            string equalityGotcha = "== compares values but not types. === compares values and types. This can lead to unexpected results when comparing values of different types. For example, 0 == false returns true, but 0 === false returns false.";
+
+            //JavaScript Methods
+            //========================================================================
+            string jsParseInt = """ parseInt(string) // Parses a string and returns an integer. Example: parseInt('42') returns 42.""";
+            string jsParseFloat = """ parseFloat(string) // Parses a string and returns a floating point number. Example: parseFloat('3.14') returns 3.14.""";
+            string jsNan = """ NaN // Stands for Not-a-Number. It is a special value that represents an undefined or unrepresentable value in JavaScript. Example: parseInt('hello') returns NaN.""";
+
+
             //JavaScript + HTML Syntax
             //========================================================================
             string embeddedJavaScript = "<script> JavaScript code goes here </script> Used to include JavaScript code in an HTML document. Generally placed within <head> but can go anywhere.";
             string externalJavaScript = "<script src=\"path/to/script.js\"></script> Used to include an external JavaScript file in an HTML document. Generally placed within <head> but can go anywhere.";
             string jsPromptFunction = """ prompt('message','default value') // Displays a dialog box that prompts the user for input. The message parameter is the text to display in the dialog box, default fills default msg. Returns the user's input as a string. Example: let name = prompt('What is your name?'); """;
             string jsAlertFunction = """ alert('message') // Displays an alert dialog box with the specified message. Example: alert('Hello, World!'); """;
+            string jsWindowLocation = """ window.location // Returns the current URL of the page. Can be used to redirect to a different URL. Example: window.location = 'https://www.example.com'; """;
+            string documentObject = "Highest object within the HTML DOM. Represents the entire HTML document. Can be used to access and manipulate elements within the document. Example: document.getElementById('myElement') returns the element with the id of 'myElement'.";
+            string windowObject = "The global object in a web browser environment. Represents the browser window and provides access to various properties and methods related to the browser. Example: window.alert('Hello, World!'); displays an alert dialog box with the message 'Hello, World!'.";
+            string jsDocumentWrite = """ <script> document.write('message') </script> // Writes a string of text to the HTML document. Example: document.write('Hello, World!'); writes 'Hello, World!' to the document. Note: This method should be used with caution as it can overwrite the entire document if called after the page has loaded.""";
+
 
 
 
