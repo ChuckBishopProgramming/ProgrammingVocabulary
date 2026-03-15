@@ -166,7 +166,9 @@
             string scriptingLanguage = "A programming language that is run line by line and is not compiled. Often used for web development and automation tasks. Examples include JavaScript, Python, and Ruby.";
             string compiledLanguage = "A programming language that is translated from human readable code into machine code that can be executed directly by a computer's processor. Examples include C, C++, and Java.";
             string scriptingHost = "A web browser with a scipting engine that can execute JavaScript code. Examples include Google Chrome, Mozilla Firefox, and Microsoft Edge.";
-
+            string frontEndDevelopment = "The user interface and user experience. It involves using HTML, CSS, and JavaScript.";
+            string backEndDevelopment = "The server side of web development. It involves working with databases, server logic, and APIs. Common languages include Python, Ruby, Java, and PHP.";
+            string clientServerArchitecture = "1. site loads in browser from the server. 2. client side scripts run in the browser. Process requests without callbacks. 3. When a call is required javascipt and ajax send it to back end. 4. backend server scripts process and pull. 5. Server side scripts process the data then updates the site"; ";
 
             Console.WriteLine("Hello, World!");
         }
