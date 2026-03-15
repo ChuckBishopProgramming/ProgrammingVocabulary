@@ -137,6 +137,7 @@
             string uncleBob = "Robert 'Uncle Bob' Martin: Creator of clean Code and popular author";
             string linusTorvalds = "Linus Torvals: Creator of Linux and Git";
             string charlesSimonyi = "Charles Simonyi: Creator of Microsoft Word and Excel. Originator of Hungarian Notation";
+            string brendanEich = "Brendan Eich: Creator of JavaScript and co-founder of Mozilla";
 
             //Software Paradigms
             //========================================================================
