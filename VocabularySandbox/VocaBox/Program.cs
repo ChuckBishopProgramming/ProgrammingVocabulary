@@ -232,6 +232,15 @@
             string jsEscapeCharacter = "\\ Used to escape special characters in a string. You can use a opposite type of quote to avoid using escape: \"string's\" or \'\"happy\"\'";
             string jsTemplateString = "raw string literal. Enclosed in backticks ``";
 
+            //Javascript String Methods
+            //========================================================================
+            string jsDotLength = """ .length // Type: Property. Returns the length of a string. Example: 'hello'.length returns 5.""";
+            string jsDotSubstring = """ .substring() // Type: Method. Returns a portion of a string between the start and end indexes. Example: 'hello world'.substring(0, 5) returns 'hello'.""";
+            string jsDotToUpperCase = """ .toUpperCase() // Type: Method. Returns a new string with all characters converted to uppercase. Example: 'hello'.toUpperCase() returns 'HELLO'.""";
+            string jsDotToLowerCase = """ .toLowerCase() // Type: Method. Returns a new string with all characters converted to lowercase. Example: 'HELLO'.toLowerCase() returns 'hello'.""";
+            string jsDotIndexOf = """ .indexOf() // Type: Method. Returns the index of the first occurrence of a specified value in a string. Example: 'hello world'.indexOf('world') returns 6.""";
+            string jsDotTrim = """ .trim() // Type: Method. Returns a new string with whitespace removed from both ends of the original string. Example: '  hello  '.trim() returns 'hello'.""";
+
             //C# Syntax
             //========================================================================
             string cSharpRawStringLiteral = "enclosed in triple quotes. \"\"\" Can contain variables and expressions inside {}. Can span multiple lines without the need for escape characters.";
