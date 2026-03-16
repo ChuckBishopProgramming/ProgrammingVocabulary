@@ -121,7 +121,13 @@
             string addition = "a+b=c";
             string subtraction = "a-b=c";
             string multiplication = "a*b=c";
-            string division = "a/b=c";  
+            string division = "a/b=c";
+
+            //Logical Operators
+            //========================================================================
+
+            //Relational Operators
+            //========================================================================
 
             //Unrelated but interesting
             //========================================================================
@@ -243,6 +249,24 @@
             string jsDatesCompare = " >, ==, < can be used to compare date objects. Will results in true/false";
             string jsDatesAdding = """ pickleDate = demoDate.getDate() + 20; This adds 20 days to demoDate.""";
             string jsDatesSubtracting = """ pickleDate = demoDate.getDate() - 20; This subtracts 20 days from demoDate.""";
+            string jsIfElseifElse = """ if (condition) { // code to execute if condition is true } else if (condition) { // code to execute if the first condition is false and this condition is true } else { // code to execute if all conditions are false }. Else if and else are optional """;
+            string jsIfElseifElseII = "Open curly braces on the same line as the if statement. This is a common convention in JavaScript and can help improve readability.";
+            string jsIfElseifElseSingle = "when code executed by the condition is on a single line, curly braces are optional.";
+            string jsSwitchStatement = """
+                 
+                switch (expression) {
+                    case value1:
+                        // code to execute if expression matches value1
+                        break; 
+                    case value2: 
+                        // code to execute if expression matches value2 
+                        break; 
+                    default: 
+                        // code to execute if expression does not match any case 
+                        break;
+                } 
+                """;
+
 
             //JavaScript Gotchas
             //========================================================================
@@ -265,8 +289,6 @@
             string documentObject = "Highest object within the HTML DOM. Represents the entire HTML document. Can be used to access and manipulate elements within the document. Example: document.getElementById('myElement') returns the element with the id of 'myElement'.";
             string windowObject = "The global object in a web browser environment. Represents the browser window and provides access to various properties and methods related to the browser. Example: window.alert('Hello, World!'); displays an alert dialog box with the message 'Hello, World!'.";
             string jsDocumentWrite = """ <script> document.write('message') </script> // Writes a string of text to the HTML document. Example: document.write('Hello, World!'); writes 'Hello, World!' to the document. Note: This method should be used with caution as it can overwrite the entire document if called after the page has loaded.""";
-
-
 
 
             //JavaScript String Methods
