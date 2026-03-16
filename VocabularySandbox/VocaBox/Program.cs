@@ -266,8 +266,16 @@
                         break;
                 } 
                 """;
-
-
+            string jsSwitchTrue = """ switch(true) means any of the case options must be true """;
+            string jsForLoop = """ for (initialization; condition; increment) { // code to execute } """;
+            string jsWhileLoop = """ while (condition) { // code to execute } Checks the conditioni before the code""";
+            string jsDoLoop = """ do { // code to execute } while (condition); Checks the condition after the code. Will always execute at least once.""";
+            string jsDoLoopExample =
+                """
+                let i = 0; 
+                do { behavior; 
+                increment++; } while (condition);
+                """;
             //JavaScript Gotchas
             //========================================================================
             string equalityGotcha = "== compares values but not types. === compares values and types. This can lead to unexpected results when comparing values of different types. For example, 0 == false returns true, but 0 === false returns false.";
