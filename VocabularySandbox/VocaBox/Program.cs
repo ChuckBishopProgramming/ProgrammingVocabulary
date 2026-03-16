@@ -276,6 +276,7 @@
                 do { behavior; 
                 increment++; } while (condition);
                 """;
+
             //JavaScript Gotchas
             //========================================================================
             string equalityGotcha = "== compares values but not types. === compares values and types. This can lead to unexpected results when comparing values of different types. For example, 0 == false returns true, but 0 === false returns false.";
