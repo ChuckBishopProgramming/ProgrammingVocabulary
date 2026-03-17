@@ -346,6 +346,19 @@
             //========================================================================
             string cSharpRawStringLiteral = "enclosed in triple quotes. \"\"\" Can contain variables and expressions inside {}. Can span multiple lines without the need for escape characters.";
 
+            //Database Programming Terms
+            //========================================================================
+            string distributedApplication = "is an application where the components of the application are located on different computers. These computers communicate by passing messages to one another";
+            string dbClientServerArchitecture = "is a distributed application structure that partitions tasks or workloads between the providers of a resource or service, called server, and service requesters, called clients";
+            string dbClient = "Pc's mobile devices etc. They request content from a server, but do not share any of their resources";
+            string dbDataAccessAPI = "a software intermediary that allows applications to interact with a database management system (DBMS) to perform operations such as querying, updating, and managing data.";
+            string dbADOdotNET = "the data access API for .NET applications.";
+            string dbServer = "store the files and databases of the system and provides services to the clients. Servers that store databases are often referred to as databse servers";
+            string dbNetwork = "consists of cabling, communication lines, and other components that connect clients and the servers of the system";
+            string DBMS = "Database management system.";
+            string dbBackendProcessing = "processing done by DBMS is generally referred to as the backend";
+
+
 
             Console.WriteLine("Hello, World!");
         }
