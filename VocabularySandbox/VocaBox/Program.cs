@@ -351,12 +351,30 @@
             string distributedApplication = "is an application where the components of the application are located on different computers. These computers communicate by passing messages to one another";
             string dbClientServerArchitecture = "is a distributed application structure that partitions tasks or workloads between the providers of a resource or service, called server, and service requesters, called clients";
             string dbClient = "Pc's mobile devices etc. They request content from a server, but do not share any of their resources";
-            string dbDataAccessAPI = "a software intermediary that allows applications to interact with a database management system (DBMS) to perform operations such as querying, updating, and managing data.";
-            string dbADOdotNET = "the data access API for .NET applications.";
-            string dbServer = "store the files and databases of the system and provides services to the clients. Servers that store databases are often referred to as databse servers";
+            string dbDataAccessAPI = "Provides the interface between the application and the DBMS. The data access API which is a part of the .NET framework is ADO.NET";
+            string dbADOdotNET = "the data access API for .NET applications. Provides consistent access to data sources through a common set of components" +
+                                 "Separates data access from data manipulation into discrete components that can be used separately or along side each other";
+            string dbADOdotNETComponents = ".NET Framework Data Providers: provides the classes used to access data in the databse. The DataSet: designed for data access independant of any data source. Consists of a collection of one or more DataTable objects consisting of rows and columns of data";
+            string dbServer = "store the files and databases of the system and provides services to the clients. Servers that store databases are often referred to as database servers";
             string dbNetwork = "consists of cabling, communication lines, and other components that connect clients and the servers of the system";
             string DBMS = "Database management system.";
             string dbBackendProcessing = "processing done by DBMS is generally referred to as the backend";
+            string dbFrontEndProcessing = "processing done by the client is generally referred to as the frontend";
+            string dbSQLInterface = "the app software communicates with the DBMS by sending SQL queries through the data access API (ADO.NET)." +
+                                    "When the DBMS receives a query, it provides a service like returning the requested data (the query results) to the client";
+            string dbSystemDotData = "the namespace in .NET that contains the classes for working with data and databases. It includes classes for connecting to databases, executing commands, and retrieving results.";
+            string dbMicrosoftDotData = "";
+
+            //.NET Framework Data Providers
+            //========================================================================
+            string SQLServerDataProvider = "Provides data access for Microsoft SQL Server databases. Uses System.Data.SqlClient namespace";
+            string OLEDBDataProvider = "Provides data access for OLE DB data sources. Uses System.Data.OleDb namespace";
+            string ODBCDataProvider = "Provides data access for ODBC data sources. Uses System.Data.Odbc namespace";
+            string OracleDataProvider = "Provides data access for Oracle databases. Uses System.Data.OracleClient namespace";
+            string EntityClientDataProvider = "Provides data access for the Entity Data Model (EDM). Uses System.Data.EntityClient namespace";
+            string SQLServerCompact4point0DataProvider = "Provides data access for SQL Server Compact 4.0 databases. Uses System.Data.SqlServerCe namespace";
+
+
 
 
 
