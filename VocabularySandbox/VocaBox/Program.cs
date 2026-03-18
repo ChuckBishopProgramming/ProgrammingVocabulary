@@ -224,7 +224,7 @@
 
             //Website Terms
             //========================================================================
-            string clientServerArchitecture = "1. site loads in browser from the server. 2. client side scripts run in the browser. Process requests without callbacks. 3. When a call is required javascipt and ajax send it to back end. 4. backend server scripts process and pull. 5. Server side scripts process the data then updates the site"; ";
+            string clientServerArchitecture = "1. site loads in browser from the server. 2. client side scripts run in the browser. Process requests without callbacks. 3. When a call is required javascipt and ajax send it to back end. 4. backend server scripts process and pull. 5. Server side scripts process the data then updates the site";
             string webServer = "Hosts: static html files and assets, css files, javascript files, server side code for dynamic html, recieves requests from clients, access data from database, sends response back to client";
             string databaseServer = "Stores or persists data between requests and visits";
             string client = "A user accessing website via mobile or laptop. Recieves html, css and javascript to be executed in the browser.";
@@ -379,6 +379,7 @@
             string dbManagingConnectionV = "On high traffic systems, unclosed connections can: Slow down the database server, block other users, cause system instability";
             string dbIfDoNotCloseConnection = "they stay in use, pool will eventually run out, new requests must wait, runtime exceptions may occur like time out expired";
             string dbIfDoCloseConnection = "Closing connections after use: prevents data locks and blocking, transactions are completed or rolled back, locks are released, frees up resources, improves performance, makes applications scalable";
+            string dbCLRKeyCharacteristics = "Type safety, exception handling services, runtime security checks, executes intermediate language (compiled c#) automatic memory management";
 
             //ConnectionString
             //=========
@@ -405,6 +406,35 @@
             //Properties
             string dbSqlCommandConnection = "the connection used to connect to the database";
             string dbSqlCommandCommandText = "The SQL statement, the name of the stored procedure, or the name of the table";
+            string dbSqlCommandCommandType = "A member of the CommandType enumeration that determines how the value in the CommandText property is interpreted";
+            string dbSqlCommandParameters = "The collection of parameters for the command";
+            //Methods
+            string dbSqlCommandExecuteReader = "ExecuteReader(); Used when the SQL statement/stored pro returns more than a single value. Sends the CommandText to the Connection and builds a SqlDataReader";
+            string dbSqlCommandExecuteNonQuery = "ExecuteNonQuery(); Used when we want to perform an insert, update, or delete operation. It executes a SQL statement/stored proc against the connection and returns the number of rows affected";
+            string dbSqlCommandExecuteScalar = "ExecuteScalar(); Used when the query returns a single (scalar) value. It executes the SQL statement/stored proc and returns the firm column of the first row in the result set returned by the query. Any additional columns or rows are ignored";
+            string dbSqlCommandExample = """
+                
+                using (SqlConnection conn = new SqlConnection("server=(local);database=Northwind;integrated security=SSPI"))
+                {
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = conn;
+                cmd.CommandText = "SELECT * FROM Employee";
+
+                conn.Open();
+
+                }                
+                """;
+            string dbSqlCommandExampleII = """
+                
+                using (SqlConnection conn = new SqlConnection("server=(local);database=Northwind;integrated security=SSPI"))
+                {
+                SqlComman cmd = new SqlCommand("SELECT * FROM Employee", conn);                         
+
+                conn.Open();
+
+                }                
+                """;
+
 
 
 
