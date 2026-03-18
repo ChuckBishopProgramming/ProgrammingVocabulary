@@ -184,7 +184,7 @@
             string conditionalExpression = "Returns boolean true or false.";
             string relationalOperator = "Used to compare two values. Examples: ==, !=, >, <, >=, <=.";
             string logicalOperator = "Used to combine or invert boolean values. Examples: &&, ||, !.";
-
+            string keyValuePair = "A set of two related data items: a key, which is a unique identifier for the item, and a value, which is the data associated with the key.";
 
             //Software Paradigms
             //========================================================================
@@ -317,7 +317,8 @@
             string jsDateToString = """ .toString() //  Returns a string representation of a date object. Example: let date = new Date('1990-01-01'); date.toString() returns 'Mon Jan 01 1990 00:00:00 GMT+0000 (Coordinated Universal Time)'.""";
             string jsDateToTimeString = """ .toTimeString() //  Returns the time portion of a date object as a human-readable string. Example: let date = new Date('1990-01-01T12:30:00'); date.toTimeString() returns '12:30:00 GMT+0000 (Coordinated Universal Time)'.""";
             string jsDateToISOString = """ .toISOString() //  Returns a string in simplified extended ISO format (YYYY-MM-DDTHH:mm:ss.sssZ) representing the date object. Example: let date = new Date('1990-01-01T12:30:00'); date.toISOString() returns '1990-01-01T12:30:00.000Z'.""";
-            //-Getters
+            // Getters
+            //=========
             string jsDateGetDate = """ .getDate() //  Returns the day of the month of a date object as a number (1-31). Example: let date = new Date('1190-01-01'); date.getDate() returns 1.""";
             string jsDateGetTime = """ .getTime() //  Returns the number of milliseconds since January 1, 1970 for a date object. Example: let date = new Date('1990-01-01'); date.getTime() returns 631152000000.""";
             string jsDateGetFullYear = """ .getFullYear() // Returns the year of a date object as a four-digit number. Example: let date = new Date('1990-01-01'); date.getFullYear() returns 1990.""";
@@ -326,7 +327,8 @@
             string jsDateGetMinutes = """ .getMinutes() // Returns the minutes of a date object as a number (0-59). Example: let date = new Date('1990-01-01T12:30:00'); date.getMinutes() returns 30.""";
             string jsDateGetSeconds = """ .getSeconds() // Returns the seconds of a date object as a number (0-59). Example: let date = new Date('1990-01-01T12:30:45'); date.getSeconds() returns 45.""";
             string jsDateGetMilliseconds = """ .getMilliseconds() // Returns the milliseconds of a date object as a number (0-999). Example: let date = new Date('1990-01-01T12:30:00.500'); date.getMilliseconds() returns 500.""";
-            //-Setters
+            // Setters
+            //=========
             string jsDateSetFullYear = """ .setFullYear(year) // Sets the year of a date object. Example: let date = new Date('1990-01-01'); date.setFullYear(2000); date.toDateString() returns 'Sat Jan 01 2000'.""";
             string jsDateSetMonth = """ .setMonth(month) // Sets the month of a date object. Example: let date = new Date('1990-01-01'); date.setMonth(5); date.toDateString() returns 'Fri Jun 01 1990'.""";
             string jsDateSetDay = """ .setDate(day) // Sets the day of the month of a date object. Example: let date = new Date('1990-01-01'); date.setDate(15); date.toDateString() returns 'Mon Jan 15 1990'.""";
@@ -364,15 +366,64 @@
                                     "When the DBMS receives a query, it provides a service like returning the requested data (the query results) to the client";
             string dbSystemDotData = "the namespace in .NET that contains the classes for working with data and databases. It includes classes for connecting to databases, executing commands, and retrieving results.";
             string dbMicrosoftDotData = "";
+            string dbConnectionObject = "class Name: SqlConnection. Establishes a connection to a specific data source/database. It is used to open and close connections to a database. It tells the rest of the ADO.NET code which data source/database to talk to";
+            string dbCommandObject = "class Name: SqlCommand. Executes a command (SQL statement) against a data source. It is used to execute queries and stored procedures against a database.";
+            string dbDataReader = "class Name: SqlDataReader. Provides a way of reading a forward-only stream of data from a data source. It is used to read the results of a query executed against a database.";
+            string dbDataAdapter = "class Name: SqlDataAdapter. Provides a way of filling a DataSet and updating a data source. It is used to fill a DataSet with the results of a query executed against a database and to update the database with changes made to the DataSet.";
+            string dbDataSet = "Contains one or more data tables that store data from a data source.";
+
+            string dbManagingConnection = "ADO.NET uses connection pooling by default. 100/100. Use one when opening a connection, return it when closed";
+            string dbManagingConnectionII = "Opening physical connection is expensive: network comms, auth, resource allocation";
+            string dbManagingConnectionIII = "Closing physical connection: returns to pool, allows reuse, reduces overhead, improves throughout";
+            string dbManagingConnectionIV = "Each open connection consumes: memory, threads, locks, session resources";
+            string dbManagingConnectionV = "On high traffic systems, unclosed connections can: Slow down the database server, block other users, cause system instability";
+            string dbIfDoNotCloseConnection = "they stay in use, pool will eventually run out, new requests must wait, runtime exceptions may occur like time out expired";
+            string dbIfDoCloseConnection = "Closing connections after use: prevents data locks and blocking, transactions are completed or rolled back, locks are released, frees up resources, improves performance, makes applications scalable";
+
+            //ConnectionString
+            //=========
+            string dbSqlConnection = "required to establish a physical connectiono to the data source/database. Consists of Key-Value-Pairs (KVPs) separated by semi colons";
+            string dbDataSource = "the name of the SQL server you want to connect to.";
+            string dbDatabaseInitialCatalog = "the name of the database you want to connect to.";
+            string dbIntegratedSecurity = "Determines whether the connections is secure. Valid values are true, false and SSPI. SSPI uses Windows integrated security and is equivalent to true";
+            string dbPersistSecurityInfo = "Determines whether sensistive information, such as password, is returned as part of the connection. The default is false.";
+            string dbEncrypt = "Used to explicitly configure Securities Policies or Exceptions";
+            string dbConnectionStringExample = "server=(local);database=Northwind;integrated security=SSPI";
+            string dbConnectionStringExampleII = "Data Source=(local);Initial Catalog=Northwind;integrated security=SSPI";
+            string dbConnectionObjectExample = "SqlConnection conn = new SqlConnection(stringWeMadeAbove);";
+            string dbConnectionOpenExample = "conn.Open();";
+            string dbConnectionCloseExample = "conn.Close();";
+            string dbUsingStatement = "Will close and dispose of the connection automatically";
+            string dbUsingStatementExample = "using (SqlConnection conn = new SqlConnection(connStr)){" +
+                                            "conn.Open()" +
+                                             "}";
+            //CommandObject
+            //=========
+            string dbCommandObjectII = "Enables access to database commands to get, create, modify and delete data, run stored procedures, and send and retrieve parameter information";
+            string dbCommandObjectIII = "It represents a SQL statement or stored procedure to execute against a data source. It must know what SQL command to execute and what connection to use in order to do its job";
+            string dbNuGetSystemdotDatadotSqlClient = "System.Data.SqlClient modern: Microsoft.Data.SqlClient";
+            //Properties
+            string dbSqlCommandConnection = "the connection used to connect to the database";
+            string dbSqlCommandCommandText = "The SQL statement, the name of the stored procedure, or the name of the table";
+
+
+
 
             //.NET Framework Data Providers
-            //========================================================================
-            string SQLServerDataProvider = "Provides data access for Microsoft SQL Server databases. Uses System.Data.SqlClient namespace";
+            //========================================================================            
             string OLEDBDataProvider = "Provides data access for OLE DB data sources. Uses System.Data.OleDb namespace";
             string ODBCDataProvider = "Provides data access for ODBC data sources. Uses System.Data.Odbc namespace";
             string OracleDataProvider = "Provides data access for Oracle databases. Uses System.Data.OracleClient namespace";
             string EntityClientDataProvider = "Provides data access for the Entity Data Model (EDM). Uses System.Data.EntityClient namespace";
             string SQLServerCompact4point0DataProvider = "Provides data access for SQL Server Compact 4.0 databases. Uses System.Data.SqlServerCe namespace";
+
+            //SQL SERVER
+            //=========
+            string SQLServerDataProvider = "Provides data access for Microsoft SQL Server databases. Uses System.Data.SqlClient namespace";
+            string connectionObjectDataProvider = "Establishes a connection to a specific data source";
+            string commandObjectDataProvider = "Executes a command (SQL statement) against a data source";
+            string dataReaderDataProvider = "Provides a way of reading a forward-only stream of data from a data source";
+            string dataAdapterDataProvider = "Provides a way of filling a DataSet and updating a data source";
 
 
 
