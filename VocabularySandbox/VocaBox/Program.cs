@@ -207,6 +207,9 @@
             string bourneAgainShell = "An enhanced version of the Bourne Shell, developed by Brian Fox. It is the default shell on many Linux distributions and macOS.";
             string vi = "A powerful text editor that is commonly used in Unix-like operating systems. It is known for its efficiency and extensive features, but has a steep learning curve for beginners.";
             string vim = "An improved version of the vi editor, created by Bram Moolenaar. It offers additional features and enhancements while maintaining compatibility with vi.";
+            string bashEscape = """ \ Example: find . -type f \( -name "*.txt" -o -name "*.md" \)""";
+            string findSyntax = "find [where to search] [what to search for] [action]";
+            string findOr = """\( -name "*.txt" -o -name "*.md" \)""";
 
             // Grep
             //=========
