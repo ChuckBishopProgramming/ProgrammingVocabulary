@@ -210,23 +210,27 @@
             string bourneAgainShell = "An enhanced version of the Bourne Shell, developed by Brian Fox. It is the default shell on many Linux distributions and macOS.";
             string vi = "A powerful text editor that is commonly used in Unix-like operating systems. It is known for its efficiency and extensive features, but has a steep learning curve for beginners.";
             string vim = "An improved version of the vi editor, created by Bram Moolenaar. It offers additional features and enhancements while maintaining compatibility with vi.";
+
+            // Grep
+            //=========
+            string grepSyntax = " grep [-options] pattern filename Brackets are optional";
+            string BRE = "Basic regular expressions";
+            string ERE = "Extended regular expressions: no need to escape +, ?, |, (), {}";
             string grep = "global regular expression print, searches for patterns. Uses basic regular expressions by default. BRE";
             string egrep = "same as grep -E. Uses extended regular expressions";
             string fgrep = "same as grep -F. searches for fixed strings. no regex, faster for literal matches";
+            string grepOptions = "-w select only lines containing matches that form whole words" +
+                                "-n prefix with the line number" +
+                                "-v invert the match conditions" +
+                                "-c count. suppress normal output. Output count of matching lines" +
+                                "-i ignore case istinctions in patterns and input data";
 
-
-            string BRE = "Basic regular expressions";
-            string ERE = "Extended regular expressions: no need to escape +, ?, |, (), {}";
+            // Piping
+            //=========
             string commandGTfilename = "command > filename. Redirects stdout to a file name filename";
             string commandGTGTfilename = "command >> filename. Redirects stdout and appends to a file named filename unless it doesn't exist then it will create it";
             string command2GTfilename = "command 2> filename. Redirects error output only";
             string commandGTfilename2GTamp1 = "command > filename 2>&1. Redirects error output from 2 to 1. amp& is needed else it would create a file name 1";
-
-            //Missing terms 
-            //Learning moment: I was scared to branch out to use more than one computer at a time
-            //I know this projec tis further ahead on my home pc but failed to push in the last 5-10 mins. Not far off. But enough.
-            //Will delete comment on next commit 
-
 
             //Programming Terms
             //========================================================================
