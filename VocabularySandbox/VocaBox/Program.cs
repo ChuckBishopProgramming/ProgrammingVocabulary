@@ -250,12 +250,13 @@
             string regexEscape = "Escape a metacharacter to treat it as a literal";
 
 
-            // Piping
+            // Redirection and Piping 
             //=========
             string commandGTfilename = "command > filename. Redirects stdout to a file name filename";
             string commandGTGTfilename = "command >> filename. Redirects stdout and appends to a file named filename unless it doesn't exist then it will create it";
             string command2GTfilename = "command 2> filename. Redirects error output only";
             string commandGTfilename2GTamp1 = "command > filename 2>&1. Redirects error output from 2 to 1. amp& is needed else it would create a file name 1";
+            string commandPipeCommand = "pipres the stnout from the first command directly into the  stnin of the following command";
 
             //Programming Terms
             //========================================================================
