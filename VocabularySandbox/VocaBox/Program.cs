@@ -34,21 +34,12 @@
         {
 
             //UNSORTED:
-            string objectOrientedProgramming = "A style of programming that focuses on objects";
-            string objectOrientedProgrammingII = "object focused, less limited than procedural but a little more complicated. Translates to visual thought processes fairly well";
-
+            
             string objectKeyword = "An object is an instance of a class. Needs the new keyword. It's an implementation of the class";
             // Customer customer1 = new Customer();
             // Name of class (type of object) name of object = new (keyword) constructor         
-            string classKeyword = "the template for a classes behaviors and attributes";
-
-            string attribute = "A form of metadata.";
-            string attributeQUESTION = "Question: How is an attribute different than a property? ";            
-            string attributeANSWER = "field and property are part of the object's state and behavior, ATTRIBUTE describes the code itself. Not the object.";
-
-            string properties = "something it has, something it knows";
-            string behavior = "something it does, a behavior it has";
-
+            
+            
             string reservedKeyWord = "special words that cannot be used as string names";
             string classKeywordII = "used before a class is declared";   
             string unixTime = "milliseconds since January 1, 1970. Used in many programming languages to represent time as a single number. Can be converted to human readable date formats.";
@@ -74,11 +65,17 @@
 
             //Class keywords - what kind of class
             //========================================================================
+            string classKeyword = "the template for a classes behaviors and attributes";
             string classKeywordIII = "a normal class";
             string abstractKeywordII = "can't be instantiated, may contain abstract members";
             string staticKeyword = "can't be instantied, only static members. Belongs to the class and does not require an onject";
             string partialKeyword = "";
             string instance = "A specific occurance of a class";
+            string attribute = "A form of metadata.";
+            string attributeQUESTION = "Question: How is an attribute different than a property? ";
+            string attributeANSWER = "field and property are part of the object's state and behavior, ATTRIBUTE describes the code itself. Not the object.";
+            string properties = "something it has, something it knows";
+            string behavior = "something it does, a behavior it has";
 
             //Member keywords - describes what the member is
             //========================================================================
@@ -225,6 +222,9 @@
                                 "-c count. suppress normal output. Output count of matching lines" +
                                 "-i ignore case istinctions in patterns and input data" +
                                 "-r recursive: read all files under each directory";
+            string grepSingleQuotes = " literal, takes everything you type as a string";
+            string grepDoubleQuotes = """ standard behavior. Cautious of $ ` \ must be escaped """;
+
             // Globbing
             //=========
             string globbingAsterisk = " * matches zero or more characters";
@@ -233,6 +233,18 @@
             string globbingSquareBracesDash = " [a-z] Matches one character in the given range";
             string globbingSquareBracesCommas = " {a,b,c} Matches any of the comma separated values";
             string globbingDoubleAsterisk = " ** Matches files recursively (if shopt -s globstar is enabled";
+
+            // REGEX regular expressions
+            //=========
+            string regexHat = "^ match at the start of a line";
+            string regexDollar = "$ Match at the end of a line";
+            string regexSquareBrackets = " [] Match any one character within the brackets";
+            string regexPeriod = " . Match any single character (except a newline)";
+            string regexSquareBracketsAndHat = " [^] Match a single character that is not in the specified set";
+            string regexAsterix = " * Match zero or more occurances of the preceding character";
+            string regexPeriodAsterix = " .* Match zero or more character ( any chacters, including new lines)";
+            string regexPipe = "Can be used as an OR if using Extended Regex";
+            string regexEscape = "Escape a metacharacter to treat it as a literal";
 
 
             // Piping
@@ -252,6 +264,8 @@
             string backEndDevelopment = "The server side of web development. It involves working with databases, server logic, and APIs. Common languages include Python, Ruby, Java, and PHP, Perl.";
             string looselyTypedLanguage = "A programming language that does not require explicit type declarations for variables. Examples include JavaScript and Python.";
             string stronglyTypedLanguage = "A programming language that requires explicit type declarations for variables. Examples include C#, Java, and C++.";
+            string objectOrientedProgramming = "A style of programming that focuses on objects";
+            string objectOrientedProgrammingII = "object focused, less limited than procedural but a little more complicated. Translates to visual thought processes fairly well";
 
             //Website Terms
             //========================================================================
