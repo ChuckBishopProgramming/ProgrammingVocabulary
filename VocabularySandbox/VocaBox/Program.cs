@@ -223,7 +223,17 @@
                                 "-n prefix with the line number" +
                                 "-v invert the match conditions" +
                                 "-c count. suppress normal output. Output count of matching lines" +
-                                "-i ignore case istinctions in patterns and input data";
+                                "-i ignore case istinctions in patterns and input data" +
+                                "-r recursive: read all files under each directory";
+            // Globbing
+            //=========
+            string globbingAsterisk = " * matches zero or more characters";
+            string globbingQuestionMark = " ? matches exactly one character";
+            string globbingSquareBraces = " [abc] Matches one of the enclosed characters";
+            string globbingSquareBracesDash = " [a-z] Matches one character in the given range";
+            string globbingSquareBracesCommas = " {a,b,c} Matches any of the comma separated values";
+            string globbingDoubleAsterisk = " ** Matches files recursively (if shopt -s globstar is enabled";
+
 
             // Piping
             //=========
