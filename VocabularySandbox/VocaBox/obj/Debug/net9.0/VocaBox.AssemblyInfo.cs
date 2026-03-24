@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VocaBox")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+064576dac5b5e242210dc9052fe85f63f5ae86d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c60a308c7b8b724c19e0af2bdb4042dcf5884af")]
 [assembly: System.Reflection.AssemblyProductAttribute("VocaBox")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VocaBox")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
