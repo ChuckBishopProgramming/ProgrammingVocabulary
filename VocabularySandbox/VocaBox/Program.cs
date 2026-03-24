@@ -210,6 +210,18 @@
             string bourneAgainShell = "An enhanced version of the Bourne Shell, developed by Brian Fox. It is the default shell on many Linux distributions and macOS.";
             string vi = "A powerful text editor that is commonly used in Unix-like operating systems. It is known for its efficiency and extensive features, but has a steep learning curve for beginners.";
             string vim = "An improved version of the vi editor, created by Bram Moolenaar. It offers additional features and enhancements while maintaining compatibility with vi.";
+            string grep = "global regular expression print, searches for patterns. Uses basic regular expressions by default. BRE";
+            string egrep = "same as grep -E. Uses extended regular expressions";
+            string fgrep = "same as grep -F. searches for fixed strings. no regex, faster for literal matches";
+
+
+            string BRE = "Basic regular expressions";
+            string ERE = "Extended regular expressions: no need to escape +, ?, |, (), {}";
+            string commandGTfilename = "command > filename. Redirects stdout to a file name filename";
+            string commandGTGTfilename = "command >> filename. Redirects stdout and appends to a file named filename unless it doesn't exist then it will create it";
+            string command2GTfilename = "command 2> filename. Redirects error output only";
+            string commandGTfilename2GTamp1 = "command > filename 2>&1. Redirects error output from 2 to 1. amp& is needed else it would create a file name 1";
+
 
             //Programming Terms
             //========================================================================
